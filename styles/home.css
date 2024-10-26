@@ -5,7 +5,10 @@
 
 body{
     background-color: #F1BB0B;
+    padding-top: 100px;
 }
+
+/* Heder Styling */
 
 header{
     position: fixed;
@@ -62,4 +65,78 @@ header .sign-btn{
     border-radius: 20px;
 
 
+}
+
+/* HomePage Styling */
+
+.homepage{
+    display: flex;
+}
+
+.paragraphs{
+    text-transform: uppercase;
+    margin-left: 30px;
+    text-align: left;
+}
+
+.paragraphs h1{
+    font-size: 5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    letter-spacing: -2px;
+    color: #000000;
+    
+
+}
+
+.text1{
+    color: white;
+    font-family: Arial;
+    font-size: 3vw;
+    font-weight: 500;
+    letter-spacing: -1px;
+    margin-bottom: 10px;
+
+}
+
+.paragraphs h2{
+    color: white;
+    font-family: Arial;
+    font-size: 4.5vw;
+    font-weight: 700;
+    letter-spacing: -2px;
+    
+}
+
+.text2{
+    text-transform: none;
+    color: white;
+    margin-top: 20px;
+    font-size: 1.5vw;
+    margin-bottom: 50px;
+}
+
+.order-btn{
+    background-color: #00833E;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 10px;
+
+}
+
+.order-btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.8vw ;
+}
+
+.main-image{
+    flex: 1;
+    width: 200px;
+    height: 100%;
+}
+
+.home-burger{
+    width: 100%;
+    height: 100%;
 }
