@@ -20,6 +20,8 @@ header{
     padding: 10px ;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     z-index: 1000;
+    backdrop-filter: blur(10px);
+    border-radius: 40px;
 }
 
 nav{
@@ -69,8 +71,22 @@ header .sign-btn{
 
 /* HomePage Styling */
 
-.homepage{
+.page-section{
+    height: 100vh;
     display: flex;
+    width: 100vw;
+    
+}
+.page-section:nth-of-type(1) {
+    display: flex;
+    background-color: #F1BB0B;
+}
+.page-section:nth-of-type(2){ 
+    background-color: #ECE8E8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .paragraphs{
@@ -116,27 +132,41 @@ header .sign-btn{
     margin-bottom: 50px;
 }
 
-.order-btn{
+.order-btn, .about-btn{
     background-color: #00833E;
     border: none;
-    padding: 5px 15px;
+    padding: 10px 15px;
     border-radius: 10px;
 
+
 }
 
-.order-btn a{
+.order-btn a, .about-btn a{
     text-decoration: none;
     color: white;
-    font-size: 1.8vw ;
+    font-size: 1.5vw ;
 }
+
+/*
 
 .main-image{
     flex: 1;
-    width: 200px;
-    height: 100%;
+    width: 100%;    
 }
 
 .home-burger{
     width: 100%;
     height: 100%;
+}
+
+*/
+
+.page-section:nth-of-type(2) .paragraphs h2, .page-section:nth-of-type(2) .paragraphs p{
+    color:black ;
+}
+
+.page-section:nth-of-type(2) .paragraphs .text1{
+    color: red;
+    margin-bottom: 60px;
+    font-size: 2vw;
 }
