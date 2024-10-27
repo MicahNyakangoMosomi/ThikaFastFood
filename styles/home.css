@@ -81,13 +81,7 @@ header .sign-btn{
     display: flex;
     background-color: #F1BB0B;
 }
-.page-section:nth-of-type(2){ 
-    background-color: #ECE8E8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
+
 
 .paragraphs{
     text-transform: uppercase;
@@ -137,17 +131,17 @@ button{
     border: none;
     padding: 5px 15px;
     border-radius: 10px;
-
-
 }
-
+button:hover{
+    opacity: 0.7;
+}
 button a{
     text-decoration: none;
     color: white;
     font-size: 1.5vw ;
 }
 
-/*
+
 
 .main-image{
     flex: 1;
@@ -156,12 +150,20 @@ button a{
 
 .home-burger{
     width: 100%;
-    height: 100%;
 }
 
-*/
 
-.page-section:nth-of-type(2) .paragraphs h2, .page-section:nth-of-type(2) .paragraphs p{
+
+.homepage2{
+    background-color: #ECE8E8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.homepage2 .paragraphs h2, .homepage2 .paragraphs p{
     color:black ;
 }
 
@@ -171,13 +173,28 @@ button a{
     font-size: 2vw;
 }
 
+.pizza-image{
+    width: 40vw;
+
+}
+.pizza-image img{
+    width: 100%;
+}
+
+.homepage2 .paragraphs{
+    flex: 1;
+
+}
+
 
 .homepage3{
     background-color: #ECE8E8;
     height: 100vh;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-top: 5px solid rgba(128, 128, 128, 0.473);
 
 }
 
@@ -185,12 +202,14 @@ button a{
     display: block;
     text-align: center;
     font-size: 5vw;
+    margin-bottom: 3vw;
 }
 
 .best-dishes{
     display: grid;
     grid-template-columns:22vw 22vw 22vw 22vw ;
     column-gap: 3vw;
+    margin-bottom: 20px;
 
     
     
@@ -198,15 +217,25 @@ button a{
 
 .dish-container{
     background-color: white;
-    border-radius: 30px 30px 20px 20px;
+    border-radius: 30px ;
     position: relative;
     padding: 10px;
+    cursor: pointer;
 
 
 }
 
+.dish-container:hover .dish-image{
+    transform: translateY(-35px);
+}
+
+.dish-container:hover .dish-text{
+    font-weight: 700;
+}
+
 .dish-image{
     width: 20vw;
+    
     
 }
 
@@ -222,6 +251,7 @@ button a{
 
 .dish-text{
     font-size: 1.5vw;
+    flex: 1;
 }
 
 
@@ -252,11 +282,16 @@ button a{
 }
 
 .like-unlike{
-    width: 5vw;
+    width: 2vw;
 
 }
 
 .like-unlike img{
     width: 100%;
+  
+}
+.view-more{
+    margin-top: 50px;
+    text-align: center;
 }
 
