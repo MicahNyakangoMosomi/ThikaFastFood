@@ -132,16 +132,16 @@ header .sign-btn{
     margin-bottom: 50px;
 }
 
-.order-btn, .about-btn{
+button{
     background-color: #00833E;
     border: none;
-    padding: 10px 15px;
+    padding: 5px 15px;
     border-radius: 10px;
 
 
 }
 
-.order-btn a, .about-btn a{
+button a{
     text-decoration: none;
     color: white;
     font-size: 1.5vw ;
@@ -170,3 +170,93 @@ header .sign-btn{
     margin-bottom: 60px;
     font-size: 2vw;
 }
+
+
+.homepage3{
+    background-color: #ECE8E8;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.homepage3 h1{
+    display: block;
+    text-align: center;
+    font-size: 5vw;
+}
+
+.best-dishes{
+    display: grid;
+    grid-template-columns:22vw 22vw 22vw 22vw ;
+    column-gap: 3vw;
+
+    
+    
+}
+
+.dish-container{
+    background-color: white;
+    border-radius: 30px 30px 20px 20px;
+    position: relative;
+    padding: 10px;
+
+
+}
+
+.dish-image{
+    width: 20vw;
+    
+}
+
+.dish-image img{
+    width: 100%;
+}
+
+.dish-content{
+    display: flex;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.dish-text{
+    font-size: 1.5vw;
+}
+
+
+
+.buy-btn a{
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: white;
+}
+
+.price-details{
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-details .dish-price{
+    font-size: 1.5vw;
+    font-weight: 1000;
+    color: red;
+}
+
+.view-more-btn,.buy-btn{
+    background-color: #00833E;
+}
+
+.buy-btn{
+    background-color: #00833E;
+}
+
+.like-unlike{
+    width: 5vw;
+
+}
+
+.like-unlike img{
+    width: 100%;
+}
+
