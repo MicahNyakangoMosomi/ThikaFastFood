@@ -13,15 +13,13 @@ body{
 header{
     position: fixed;
     display: flex;
-    align-items: center;
     justify-content: space-between;
     width: 100%;
     top: 0;
-    padding: 10px ;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px ;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
     z-index: 1000;
     backdrop-filter: blur(10px);
-    border-radius: 40px;
 }
 
 nav{
@@ -51,10 +49,11 @@ header nav li img{
 
 header nav a{
     text-decoration: none;
-    color: white;
+    color: black;
     position: relative;
     top: 15px;
     right: 40px;
+    font-weight: 700;
 
 }
 
@@ -202,7 +201,7 @@ button a{
     display: block;
     text-align: center;
     font-size: 5vw;
-    margin-bottom: 3vw;
+    margin-bottom: 1vw;
 }
 
 .best-dishes{
