@@ -70,17 +70,26 @@ header .sign-btn{
 
 /* HomePage Styling */
 
-.page-section{
+.homepage1{
     height: 100vh;
     display: flex;
     width: 100vw;
-    
-}
-.page-section:nth-of-type(1) {
     display: flex;
-    background-color: #F1BB0B;
+    background-color: #F1BB0B;  
 }
 
+.homepage1::after{
+    content: '';
+    position: absolute;
+    bottom: -216px;
+    left: 0;
+    width: 100vw;
+    height: 100px; /* Adjust to control the depth of the triangle */
+    background-color: #f5f1e9; /* Background color below the image */
+    clip-path: polygon(50% 100%, 100% 0, 0 0);
+    background-color: #F1BB0B;
+
+}
 
 .paragraphs{
     text-transform: uppercase;
@@ -215,13 +224,18 @@ button a{
 }
 
 .dish-container{
-    background-color: white;
+    background-color:none;
     border-radius: 30px ;
     position: relative;
     padding: 10px;
     cursor: pointer;
+    transition: .5s;
+    background-color: white;
 
+}
 
+.dish-container:hover{
+    
 }
 
 .dish-container:hover .dish-image{
