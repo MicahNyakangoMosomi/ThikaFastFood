@@ -209,8 +209,9 @@ button a{
 .homepage3 h1{
     display: block;
     text-align: center;
-    font-size: 5vw;
-    margin-bottom: 1vw;
+    font-size: 3vw;
+    margin-bottom:8vw;
+    color: red;
 }
 
 .best-dishes{
@@ -225,12 +226,18 @@ button a{
 
 .dish-container{
     background-color:none;
-    border-radius: 30px ;
+    border-radius: 37px 37px 20px 20px ;
     position: relative;
     padding: 10px;
     cursor: pointer;
     transition: .5s;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: end;
+    
+    
 
 }
 
@@ -240,6 +247,7 @@ button a{
 
 .dish-container:hover .dish-image{
     transform: translateY(-35px);
+    
 }
 
 .dish-container:hover .dish-text{
@@ -248,7 +256,9 @@ button a{
 
 .dish-image{
     width: 20vw;
-    
+    position: absolute;
+    top: -7vw;
+
     
 }
 
@@ -259,7 +269,7 @@ button a{
 .dish-content{
     display: flex;
     padding: 5px;
-    margin-bottom: 20px;
+    margin-top:20vh;
 }
 
 .dish-text{
@@ -278,6 +288,7 @@ button a{
 .price-details{
     display: flex;
     justify-content: space-between;
+    padding: 20px;
 }
 
 .price-details .dish-price{
