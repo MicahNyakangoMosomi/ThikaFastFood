@@ -47,12 +47,12 @@ header nav li img{
 }
 
 
-header nav a{
+header nav .nav-link{
     text-decoration: none;
     color: black;
-    position: relative;
-    top: 15px;
-    right: 40px;
+    position: absolute;
+    top: 30px;
+    right: -7px;
     font-weight: 700;
 
 }
@@ -241,9 +241,7 @@ button a{
 
 }
 
-.dish-container:hover{
-    
-}
+
 
 .dish-container:hover .dish-image{
     transform: translateY(-35px);
