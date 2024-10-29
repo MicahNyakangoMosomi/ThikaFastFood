@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F1BB0B;
+    padding-top: 70px;
+}
+
+/* Heder Styling */
+
+header{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    top: 0;
+    padding: 15px ;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+}
+
+nav{
+    margin: 0 auto;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav li{
+    position: relative;
+    margin-left: 7vw;
+}
+
+header nav li img{
+    border-radius: 50%;
+    width: 30px;
+    position: relative;
+}
+
+
+header nav a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 15px;
+    right: 40px;
+    font-weight: 700;
+
+}
+
+header .sign-btn{
+    margin-right: 20px;
+    border: 2px solid #013D46;
+    background-color: transparent;
+    padding: 5px 15px;
+    box-sizing: border-box;
+    border-radius: 20px;
+
+
+}
+
+.header-content{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+
+}
+.side-bar{
+    position: fixed;
+    left: 0;
+    height: 100%; 
+    background-color: grey;
+
+}
+
+.side-bar ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+
+
