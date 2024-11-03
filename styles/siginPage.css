@@ -12,19 +12,22 @@ body{
 
 }
 
+.container-main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
 .card{
     background-color: #E58B36;
     border-radius: 20px;
     padding: 15px;
     height: 450px;
     position: relative;
+    width: 30vw;
     
-}
-.container-main{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 .card h1{
@@ -43,6 +46,7 @@ form .email{
     padding: 5px;
     border-radius: 20px;
     border: none;
+    width: 100%;
 }
 
 form .password{
@@ -52,4 +56,9 @@ form .password{
     padding: 5px;
     border-radius: 20px;
     border: none;
+    width: 100%;
+}
+
+.card h1{
+    text-align: center;
 }
