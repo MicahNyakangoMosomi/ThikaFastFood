@@ -11,7 +11,7 @@ products.forEach((product) => {
 
         <div class="dish-content">
             <p class="dish-text">${product.discription}</p>
-            <div class="like-unlike"><img src="images/likeAndUnlike/unlike.png" alt=""></div>
+            <div class="like-unlike"><img class="like-unlike-image" src="images/likeAndUnlike/unlike.png" alt=""></div>
         </div>
 
         <div class="price-details">
@@ -25,3 +25,20 @@ products.forEach((product) => {
 
     bestDishes.innerHTML= displayElement;   
 })
+
+const likeElements = document.querySelectorAll('.like-unlike-image');
+
+likeElements.forEach((element) => {
+    element.addEventListener('click', () => {
+        function like_unlike() {
+
+            if (element.getAttribute("src") === 'images/likeAndUnlike/like.png') {
+                element.setAttribute('src', 'images/likeAndUnlike/unlike.png');
+            } else {
+                element.setAttribute('src', 'images/likeAndUnlike/like.png');
+            }
+        }
+
+        like_unlike();
+    });
+});
