@@ -35,7 +35,7 @@ export const products =
     
     },
     {
-        id:1,
+        id:4,
         discription:'Juicy cheeseburgers with pickled jalapeños topped with a crispy hash brown ',
         url:'images/burger2.png',
         price:697,
@@ -44,7 +44,7 @@ export const products =
     
     },
     {
-        id:2,
+        id:6,
         discription:'Burritos Wrapped with Beef and Vegetable',
         url:'images/burritos.png',
         price:756,
@@ -52,7 +52,7 @@ export const products =
     
     },
     {
-        id:3,
+        id:7,
         discription:'Roasted Chicken with Vegetables',
         url:'images/Roasted Chicken with Vegetables.png',
         price:1207,
@@ -60,7 +60,7 @@ export const products =
     
     },
     {
-        id:4,
+        id:8,
         discription:'Delicious fried chicken with french fries',
         url:'images/fried chicken.png',
         price:846,
@@ -68,7 +68,7 @@ export const products =
     
     },
     {
-        id:1,
+        id:9,
         discription:'Juicy cheeseburgers with pickled jalapeños topped with a crispy hash brown ',
         url:'images/burger2.png',
         price:697,
@@ -77,7 +77,7 @@ export const products =
     
     },
     {
-        id:2,
+        id:10,
         discription:'Burritos Wrapped with Beef and Vegetable',
         url:'images/burritos.png',
         price:756,
@@ -85,7 +85,7 @@ export const products =
     
     },
     {
-        id:3,
+        id:11,
         discription:'Roasted Chicken with Vegetables',
         url:'images/Roasted Chicken with Vegetables.png',
         price:1207,
@@ -93,7 +93,7 @@ export const products =
     
     },
     {
-        id:4,
+        id:12,
         discription:'Delicious fried chicken with french fries',
         url:'images/fried chicken.png',
         price:846,
@@ -101,7 +101,7 @@ export const products =
     
     },
     {
-        id:1,
+        id:13,
         discription:'Juicy cheeseburgers with pickled jalapeños topped with a crispy hash brown ',
         url:'images/burger2.png',
         price:697,
@@ -110,7 +110,7 @@ export const products =
     
     },
     {
-        id:2,
+        id:14,
         discription:'Burritos Wrapped with Beef and Vegetable',
         url:'images/burritos.png',
         price:756,
@@ -118,7 +118,7 @@ export const products =
     
     },
     {
-        id:3,
+        id:15,
         discription:'Roasted Chicken with Vegetables',
         url:'images/Roasted Chicken with Vegetables.png',
         price:1207,
@@ -126,7 +126,7 @@ export const products =
     
     },
     {
-        id:4,
+        id:16,
         discription:'Delicious fried chicken with french fries',
         url:'images/fried chicken.png',
         price:846,
@@ -134,7 +134,7 @@ export const products =
     
     },
     {
-        id:1,
+        id:17,
         discription:'Juicy cheeseburgers with pickled jalapeños topped with a crispy hash brown ',
         url:'images/burger2.png',
         price:697,
@@ -143,7 +143,7 @@ export const products =
     
     },
     {
-        id:2,
+        id:18,
         discription:'Burritos Wrapped with Beef and Vegetable',
         url:'images/burritos.png',
         price:756,
@@ -151,7 +151,7 @@ export const products =
     
     },
     {
-        id:3,
+        id:19,
         discription:'Roasted Chicken with Vegetables',
         url:'images/Roasted Chicken with Vegetables.png',
         price:1207,
@@ -159,7 +159,7 @@ export const products =
     
     },
     {
-        id:4,
+        id:20,
         discription:'Delicious fried chicken with french fries',
         url:'images/fried chicken.png',
         price:846,
