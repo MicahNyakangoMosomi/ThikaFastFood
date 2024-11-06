@@ -56,19 +56,19 @@ sidebar.addEventListener('click', (event)=>{
     const target = event.target
     
     if(target.matches('a')){     //this excutes if the target in the ul has an <a> tag
-        select = target.innerText; //declares select which will be the text inside the a tags
-        console.log(select.toLowerCase());
-        target.style.color="green";
+        select = target.innerText; //declares select which will be initialized the text inside the a tags
+        console.log(select.toLowerCase()); //coverts in a tag text to lowercase
+        target.style.color="green";  //if the a tag is clicked the color changes green
 
-        const pageProduct = [];
-        products.forEach((product) =>{
-        
+        const pageProduct = [];   //an array that will contain the the matching categories of the product with the clicked cateogory (burgers array.....)
+        products.forEach((product) =>{ //loop each object in the array
+         
             if (product.category === select.toLowerCase()){
-                pageProduct.push(product); 
-                displayElement = ''
+                pageProduct.push(product); //if the product category matches the cliced category, the object is pushed the the new array
+                displayElement = ''  //clears the variable displayElemnts that contains the elements currently been displayed on the page
 
-                pageProduct.forEach((product) =>{
-                    displayElement +=`
+                pageProduct.forEach((product) =>{  //loops through the pageProduct 
+                    displayElement +=`  
                     <div class="dish-container product${product.id}">
                         <div class="dish-image"><img src="${product.url}" alt=""></div>
 
@@ -85,7 +85,7 @@ sidebar.addEventListener('click', (event)=>{
                     </div>
                     `
                 })
-                dishes.innerHTML= displayElement;  
+                dishes.innerHTML= displayElement;  //displays the matching products with a category similar to the one clicked
             }
             
           
@@ -93,12 +93,6 @@ sidebar.addEventListener('click', (event)=>{
 
     }
 
-
-    
-
-   
-    
-    
 
 });
 
