@@ -110,7 +110,7 @@ header .sign-btn{
     font-weight: 900;
     letter-spacing: -2px;
     margin-bottom: 20px;
-    color: #00833E;
+    color: tomato;
 }
 
 .side-bar ul li{
@@ -127,7 +127,7 @@ header .sign-btn{
     position: relative;
 }
 
-.side-bar ul li a::after{
+/*.side-bar ul li a::after{
    content: '';
    position: absolute;
    height: 5px;
@@ -142,11 +142,11 @@ header .sign-btn{
     width: 100%;
 
 }
-.side-bar ul{
-    list-style: none;
-    
 
-    
+*/
+
+.side-bar ul{
+    list-style: none;  
 
 }
 
@@ -159,12 +159,12 @@ header .sign-btn{
 
 .dishes{
     display: flex;
-    justify-content: space-evenly;
-    column-gap: 2vw;
+    column-gap: 3vw;
     margin-bottom: 20px;
     margin-top: 150px;
     flex-wrap: wrap;
     row-gap: 7vw;
+    padding: 50px;
 }
 
 .dish-container{
