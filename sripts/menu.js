@@ -42,3 +42,16 @@ likeElements.forEach((element) => {
         like_unlike();
     });
 });
+
+//
+const sidebar = document.querySelector('.side-bar-list');
+
+sidebar.addEventListener('click', (event)=>{
+    const target = event.target
+    if(target.matches('li')){
+        const select = target.innerText;
+        console.log(select);
+        target.style.backgroundColor="lightgrey"
+    }
+
+})

@@ -166,5 +166,4 @@ export const products =
         category:'fries'
     
     }
-
 ]
