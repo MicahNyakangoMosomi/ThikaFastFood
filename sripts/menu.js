@@ -22,30 +22,34 @@ function uncategorizedFunction(){
     
         </div>
         `
-        dishes.innerHTML= displayElement;   
+        dishes.innerHTML= displayElement;  
+        likeFunction() 
     })
 
 }
 uncategorizedFunction();
 
+//like and Unlike Function
+function likeFunction(){
+    const likeElements = document.querySelectorAll('.like-unlike-image');
+    likeElements.forEach((element) => {
+        element.addEventListener('click', () => {
+            function like_unlike() {
 
-
-const likeElements = document.querySelectorAll('.like-unlike-image');
-
-likeElements.forEach((element) => {
-    element.addEventListener('click', () => {
-        function like_unlike() {
-
-            if (element.getAttribute("src") === 'images/likeAndUnlike/like.png') {
-                element.setAttribute('src', 'images/likeAndUnlike/unlike.png');
-            } else {
-                element.setAttribute('src', 'images/likeAndUnlike/like.png');
+                if (element.getAttribute("src") === 'images/likeAndUnlike/like.png') {
+                    element.setAttribute('src', 'images/likeAndUnlike/unlike.png');
+                } else {
+                    element.setAttribute('src', 'images/likeAndUnlike/like.png');
+                }
             }
-        }
 
-        like_unlike();
+            like_unlike();
+        });
     });
-});
+
+}
+
+
 
 //
 const sidebar = document.querySelector('.side-bar-list');
@@ -86,13 +90,12 @@ sidebar.addEventListener('click', (event)=>{
                     `
                 })
                 dishes.innerHTML= displayElement;  //displays the matching products with a category similar to the one clicked
+                likeFunction()
             }
             
           
         })
 
-    }
-
-
+    } 
 });
 
