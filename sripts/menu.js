@@ -61,6 +61,8 @@ sidebar.addEventListener('click', (event)=>{
     
     if(target.matches('a')){     //this excutes if the target in the ul has an <a> tag
         select = target.innerText; //declares select which will be initialized the text inside the a tags
+        const activeCategory = document.querySelector('.active-category-name')
+        activeCategory.innerText = select.toUpperCase();
         console.log(select.toLowerCase()); //coverts in a tag text to lowercase
         target.style.color="green";  //if the a tag is clicked the color changes green
 
@@ -95,6 +97,12 @@ sidebar.addEventListener('click', (event)=>{
             
           
         })
+
+        if('uncategorized' === select.toLowerCase()){
+            displayElement=''
+            uncategorizedFunction();
+        }
+        
 
     } 
 });

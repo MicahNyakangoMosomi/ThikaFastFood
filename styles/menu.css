@@ -150,6 +150,11 @@ header .sign-btn{
 
 }
 
+.active-category-name{
+    color: white;
+    font-size: 3vw;
+}
+
 .display-meals{
     margin-left: 17vw;
     margin-right: 2vw;
